@@ -1,0 +1,25 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>🧑‍🚀 Hello,Liling!</h1>
+
+			<h2>Mengubah Kode Menjadi Karya</h2>
+			<p>
+				Di dunia digital yang terus berkembang, peran seorang web developer menjadi semakin penting dalam menciptakan pengalaman online yang luar biasa. Salah satu pahlawan tak dikenal di balik layar adalah seorang web developer, yang memiliki kemampuan untuk mengubah kode menjadi karya yang fungsional dan menarik.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
